@@ -6,7 +6,7 @@
 .hero {
   min-height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: center 100%;
   position: relative;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
