@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import activityBox from '../assets/activityBox.svg'
+import activityBox from '../assets/buttons/activityBox.svg'
 
 export class Box extends Component {
   render() {
