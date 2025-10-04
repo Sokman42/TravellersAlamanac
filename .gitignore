@@ -1,4 +1,4 @@
-# Logs
+# --- Node / Frontend ---
 logs
 *.log
 npm-debug.log*
@@ -22,3 +22,34 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- Python / Backend ---
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Data / models (optional: don’t push large files)
+data/
+models/
+
+# Python egg / dist
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
