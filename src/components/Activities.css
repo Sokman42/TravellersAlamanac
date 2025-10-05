@@ -1,0 +1,74 @@
+.act-hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center 78%;
+    position: relative;
+}
+
+.act-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+    color: #fff;
+    padding: 48px 24px;
+}
+
+.act-header {
+    max-width: 1100px;
+    margin: 0 auto 20px;
+}
+
+.act-header h2 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    color: #ffa640;
+}
+
+.act-header p {
+    margin: 0;
+    opacity: .9;
+}
+
+.act-grid {
+    list-style: none;
+    margin: 24px auto 0;
+    padding: 0;
+    display: grid;
+    gap: 22px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    max-width: 1100px;
+}
+
+.act-card {
+    width: 100%;
+    height: 160px;
+    padding: 18px;
+    display: grid;
+    align-content: center;
+    justify-items: start;
+    gap: 8px;
+    background: rgba(255, 255, 255, .10);
+    border: 1px solid rgba(255, 255, 255, .22);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    color: #fff;
+    text-align: left;
+    transition: transform .12s ease, background .12s ease;
+}
+
+.act-card:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, .14);
+}
+
+.act-card h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.act-card p {
+    margin: 0;
+    font-size: 12px;
+    opacity: .9;
+}

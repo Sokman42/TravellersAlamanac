@@ -1,0 +1,106 @@
+.forecast-hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center 80%;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+    color: #fff;
+    padding: 56px 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto 8px;
+}
+
+.accent {
+    color: #ffa640;
+}
+
+.back {
+    color: #fff;
+    text-decoration: none;
+    opacity: .9;
+}
+
+.subtitle {
+    max-width: 1100px;
+    margin: 0 auto 16px;
+    opacity: .9;
+}
+
+.week-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 8px 0 12px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.week-row::-webkit-scrollbar {
+    display: none;
+}
+
+.week-card {
+    width: 260px;
+    min-height: 220px;
+    padding: 16px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, .10);
+    border: 1px solid rgba(255, 255, 255, .22);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .3);
+    text-align: center;
+    scroll-snap-align: center;
+    display: grid;
+    gap: 10px;
+    align-content: center;
+}
+
+.range {
+    font-weight: 600;
+}
+
+.temps {
+    opacity: .9;
+}
+
+.note {
+    opacity: .95;
+}
+
+.book {
+    margin-top: 6px;
+    padding: 10px 12px;
+    width: 100%;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .15);
+    border: 1px solid rgba(255, 255, 255, .3);
+    color: #fff;
+    cursor: pointer;
+}
+
+.arrows {
+    max-width: 1100px;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows button {
+    background: rgba(255, 255, 255, .18);
+    border: 1px solid rgba(255, 255, 255, .3);
+    color: #fff;
+    border-radius: 12px;
+    padding: 8px 14px;
+}

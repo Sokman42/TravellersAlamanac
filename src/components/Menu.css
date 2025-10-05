@@ -1,0 +1,110 @@
+/* reuses your existing hero/scrim styles */
+.hero {
+    min-height: 100%;
+    background-size: cover;
+    background-position: center 100%;
+    position: relative;
+}
+
+.scrim {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    padding: 28px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.topbar h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.topbar .accent {
+    color: #ffa640;
+}
+
+.topbar .temp {
+    opacity: 0.95;
+}
+
+.menuGrid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+}
+
+.menuGrid li {
+    display: contents;
+}
+
+.menuCard {
+    width: 260px;
+    height: 220px;
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    color: #fff;
+    text-align: center;
+    padding: 22px 18px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform .12s ease, background .12s ease;
+}
+
+.menuCard:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.menuCard h3 {
+    margin: 6px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menuCard p {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.9;
+    max-width: 180px;
+}
+
+.divider {
+    width: 56px;
+    height: 2px;
+    opacity: .35;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.badge {
+    position: absolute;
+    transform: translate(96px, -88px);
+    background: #2bd67b;
+    color: #0b1f15;
+    border-radius: 999px;
+    padding: 4px 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 12px;
+}
