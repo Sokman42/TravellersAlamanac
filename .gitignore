@@ -42,8 +42,8 @@ logs/
 *.log
 
 # Data / models (optional: don’t push large files)
-data/
-models/
+# data/
+# models/
 
 # Python egg / dist
 *.egg-info/
